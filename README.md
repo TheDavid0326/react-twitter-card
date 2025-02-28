@@ -1,12 +1,53 @@
-# React + Vite
+# Twitter Follow Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un componente de React que simula una tarjeta de usuario de Twitter con la funcionalidad de seguir y dejar de seguir.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Muestra la información de un usuario (nombre, nombre de usuario y avatar).
+- Permite seguir o dejar de seguir al usuario.
+- Cambia dinámicamente el texto del botón entre "Seguir" y "Siguiendo".
+- Diseño responsive y moderno.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías utilizadas
+
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para proyectos modernos.
+- **CSS**: Estilos personalizados para la tarjeta y el botón.
+- **unavatar.io**: Servicio para obtener avatares de usuarios basados en su nombre de usuario.
+
+---
+
+## Cómo usar
+
+### 1. Clona el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/twitter-follow-card.git
+cd twitter-follow-card
+```
+
+### 2. Instala las dependencias
+```bash
+npm install
+```
+
+### 3. Inicia el servidor de desarrollo
+```bash
+npm run dev
+```
+
+### 4. Abre el proyecto en tu navegador
+
+Visita http://localhost:5173 para ver el proyecto en acción.
+
+## Estructura del proyecto
+```
+twitter-follow-card/
+├── src/
+│   ├── App.jsx            # Componente principal que renderiza las tarjetas.
+│   ├── TwitterFollowCard.jsx # Componente de la tarjeta de usuario.
+│   ├── main.jsx           # Punto de entrada de la
+```

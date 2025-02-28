@@ -2,6 +2,8 @@
 
 Un componente de React que simula una tarjeta de usuario de Twitter con la funcionalidad de seguir y dejar de seguir.
 
+![Demo]([https://react-twitter-card.netlify.app/](https://react-twitter-card.netlify.app/)) 
+
 ## Características
 
 - Muestra la información de un usuario (nombre, nombre de usuario y avatar).

@@ -2,7 +2,7 @@
 
 Un componente de React que simula una tarjeta de usuario de Twitter con la funcionalidad de seguir y dejar de seguir.
 
-![Demo](https://via.placeholder.com/500x300)https://react-twitter-card.netlify.app/
+[![Demo](https://via.placeholder.com/500x300)](https://react-twitter-card.netlify.app/)
 
 ## Características
 
